@@ -5,7 +5,7 @@ Internet resource - web-site, which provides application with information.
 
 **2. Use cases**
 
-**2.1.** Choosing of cryptocurrency 
+**2.1. Choosing of cryptocurrency 
 
 **Description.** "Choosing of cryptocurrency" use case allows to choose one of available cryptocurrencies. 
 
@@ -14,7 +14,7 @@ Internet resource - web-site, which provides application with information.
 **Postdescription.** "Choosing of cryptocurrency" use case let us activate "Checking rates" and "Conversion" use cases.
 
 
-**2.2.** Choosing of GPUs
+**2.2. Choosing of GPUs
 
 **Description.** "Choosing of GPU" use case allows to choose available GPUs. 
 
