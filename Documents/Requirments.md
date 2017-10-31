@@ -14,7 +14,7 @@ This application will be used for:
 
 **2.1 User interface**
 
-![interface](https://github.com/YevgeniMakarovich/TransCrypt/blob/master/%D0%9C%D0%9E%D0%9A%D0%90%D0%9F.jpg "Interface")
+![interface](https://github.com/YevgeniMakarovich/TransCrypt/blob/master/Images/Mockups/Mockup.jpg "Interface")
 
 **2.3 User characteristics**
 
