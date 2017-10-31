@@ -12,7 +12,7 @@ Internet resource - web-site, which provides application with information.
 
  **Main thread.** User press on a button with neccesary cryptocurrency.
 
- **Postdescription.** "Choosing of cryptocurrency" use case let us activate "Checking rates" and "Conversion" use cases.
+ **Postdescription.** "Choosing of cryptocurrency" use case lets us activate "Checking rates" and "Conversion" use cases.
 
 
 ## **2.2. Choosing of GPUs**
