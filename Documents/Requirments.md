@@ -1,6 +1,6 @@
-**Project requirements**
+# **Project requirements**
 
-**1. Introduction**
+## **1. Introduction**
 
 Nowadays, cryptocurrency is the most progressive tool for online money transactions. Cryptocurrency provides you with anonymity and gives you an opportunity of tracking your "digital money" on it's way from deliver to receiver. 
 Cryptocurrency uses cryptography to secure the transactions and to control the creation of additional units, so, the main task of this project is to make choosing of cryptocurrency for mining more convenient and apprehensible.
@@ -10,7 +10,7 @@ This application will be used for:
 * transferring cryptocurrency to US dollar.  
 
 
-**2. User requirements**
+## **2. User requirements**
 
 **2.1 User interface**
 
@@ -25,7 +25,7 @@ The target audience - people of all ages, who want to start cryptocurrency minin
 Without internet connection application won't be able to refresh rates and make transfering without it. Also, there are a lot of differences of cryptocurrencies and GPUs, so, this application can not provides you with a great choice of cryptocurrencies, but amount of supported cryptocurrencies and GPU's will become wider in next updates.
 
 
-**3. System requirements**
+## **3. System requirements**
 
 1. Windows 7/8/10
 2. MSBuild 15.0
