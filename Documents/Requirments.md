@@ -18,11 +18,11 @@ This application will be used for:
 
 **2.3 User characteristics**
 
-The target audience - people of all ages, who want to start mining of cryptocurrency or to keep in touch with latest rates.
+The target audience - people of all ages, who want to start cryptocurrency mining or to keep in touch with latest rates.
 
 **2.4 Assumptions and dependencies**
 
-Without internet connection application can not be able to refresh rates and make transfering without it. Also, there are a lot of differences of cryptocurrencies and GPUs, so, this application can not provides you with a great choice of cryptocurrencies, but amount of supported cryptocurrencies and GPU's will become wider in next updates.
+Without internet connection application won't be able to refresh rates and make transfering without it. Also, there are a lot of differences of cryptocurrencies and GPUs, so, this application can not provides you with a great choice of cryptocurrencies, but amount of supported cryptocurrencies and GPU's will become wider in next updates.
 
 
 **3. System requirements**
@@ -35,7 +35,7 @@ Without internet connection application can not be able to refresh rates and mak
 
 **3.1 Functional requirements**
 
-1. When choosing a crypto currency, in the corresponding field the current rate of this crypto currency relative to USD and its rate for yesterday must be displayed.
+1. When choosing a crypto currency, in the corresponding field the current rate of this cryptocurrency relative to USD and its rate for yesterday must be displayed.
 2. The ability to choose not only  models of GPUs, but also the amount of connected devices.
 3. When choosing a crypto currency and GPUs, the amount of received crypto currency per hour and the value of this amount of crypto currency in USD must be displayed in the corresponding field.
 
