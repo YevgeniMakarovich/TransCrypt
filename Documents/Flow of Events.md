@@ -12,7 +12,7 @@ Internet resource - web-site, which provides application with information.
 
  **Main thread.** User press on a button with neccesary cryptocurrency.
 
- **Postdescription.** "Choosing of cryptocurrency" use case lets us activate "Checking rates" and "Conversion" use cases.
+ **Postcondition.** "Choosing of cryptocurrency" use case lets us activate "Checking rates" and "Conversion" use cases.
 
 
 ## **2.2. Choosing of GPUs**
@@ -24,7 +24,7 @@ Internet resource - web-site, which provides application with information.
 1. User presses on a button with neccesary GPUs.
 2. User chooses amount of GPUs.
 
- **Postdescription.** "Choosing of GPU" use case let us activate "Conversion" use cases.
+ **Postcondition.** "Choosing of GPU" use case let us activate "Conversion" use cases.
 
 
 ## **2.3. Checking rates**
