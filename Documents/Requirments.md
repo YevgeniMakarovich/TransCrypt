@@ -35,12 +35,12 @@ Without internet connection application won't be able to refresh rates and make 
 
 **3.1 Functional requirements**
 
-1. When choosing a crypto currency, the current rate of this cryptocurrency relative to USD and its rate for yesterday must be displayed in the corresponding field.
-2. The ability to choose not only  models of GPUs, but also the amount of connected devices.
-3. When choosing a crypto currency and GPUs, the amount of received crypto currency per hour and the value of this amount of crypto currency in USD must be displayed in the corresponding field.
+1. When choosing a crypto currency, the current rate of this cryptocurrency relative to USD must be displayed in the correspondent field.
+2. When choosing a cryptocurrency, its rate for yesterday must be displayed in the corresponding field.
+3. The ability to choose models of GPUs.
+4. The ability to choose amount of connected devices.
+5. When choosing a crypto currency and GPUs, the amount of received crypto currency per hour and the value of this amount of crypto currency in USD must be displayed in the corresponding field.
 
 **3.2 Non-functional requirements**
-
-**3.2.1 Software quality attributes**
 
 Completeness of provided information - all rates will be updated after every single launch. GPU’s characteristics are static and already published.
