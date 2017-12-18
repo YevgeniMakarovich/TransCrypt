@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <title>TransCrypt</title>
+
+	    <meta name="description" content="" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="{% static 'libs/bootstrap/bootstrap-grid-3.3.1.min.css' %}" />
+		<link rel="stylesheet" href="{% static 'libs/font-awesome-4.2.0/css/font-awesome.min.css' %}" />
+		<link rel="stylesheet" href="{% static 'css/fonts.css' %}"/>
+		<link rel="stylesheet" href="{% static 'css/main.css' %}" />
+		<link rel="stylesheet" href="{% static 'css/media.css' %}" />
+
+		<link rel="stylesheet" href="{% static 'functionality/css/mystyles.css' %}" />
+	</head>
+
+	<body>
+	    <div class="container">
+	    	<div class="col-sm-12">
+	    		<div class="row">
+	    			<p class="logo">TransCrypt</p>
+	    		</div>
+	    	</div>
+			
+			<div id="main-div" class="col-sm-8 col-sm-offset-2">
+				<form method="post" action="{% url 'calculations' %}">
+					{% csrf_token %}
+
+			    	<div>
+			    		<div class="row">
+							<p class="paragraph">Select cryptocurrency</p>
+
+							<div class="radio-div">
+								<center>
+									<input type="radio" id="0" name="currency" value="0" checked>
+									<label for="0">Bitcoin</label>
+									
+									<input type="radio" id="1" name="currency" value="1">
+									<label for="1">Ethereum</label>
+							  	
+								  	<input type="radio" id="2" name="currency" value="2">
+									<label for="2">Litecoin</label>
+								</center>
+							</div>
+						</div>
+			    	</div>
+					
+					<div id="gpu">
+			    		<div class="row">
+							<p class="paragraph">Select amount of GPUs</p>
+							
+							<center>
+								<p>
+									<label>Amout of GTX 1070: </label>
+									<input type="number" name="GTX1070" value="0" required>
+								</p>
+
+								<p>
+									<label>Amout of GTX 1050 ti: </label>
+									<input type="number" name="GTX1050TI" value="0" required>
+								</p>
+								
+								<p>
+									<label>Amout of AMD RX580: </label>
+									<input type="number" name="AMD580RX" value="0" required>
+								</p>
+							</center>
+						</div>
+			    	</div>
+					
+					<div>
+						<div class="row">
+							<center>
+								<button id="submit" type="submit">Calculate</button>
+							</center>
+						</div>
+					</div>
+		    	</form>
+
+		    	<hr>
+
+		    	<div id="results">
+					{% include 'functionality/_results.html' %}
+		    	</div>
+	    	</div>
+
+
+
+	    </div>
+		
+		<!-- Scripts-->
+	    <script src="{% static 'libs/jquery/jquery-1.11.1.min.js' %}"></script>
+		<script src="{% static 'libs/jquery-mousewheel/jquery.mousewheel.min.js' %}"></script>
+		<script src="{% static 'libs/fancybox/jquery.fancybox.pack.js' %}"></script>
+		<script src="{% static 'libs/waypoints/waypoints-1.6.2.min.js' %}"></script>
+		<script src="{% static 'libs/scrollto/jquery.scrollTo.min.js' %}"></script>
+		<script src="{% static 'libs/owl-carousel/owl.carousel.min.js' %}"></script>
+		<script src="{% static 'libs/countdown/jquery.plugin.js' %}"></script>
+		<script src="{% static 'libs/countdown/jquery.countdown.min.js' %}"></script>
+		<script src="{% static 'libs/countdown/jquery.countdown-ru.js' %}"></script>
+		<script src="{% static 'libs/landing-nav/navigation.js' %}"></script>
+		<script src="{% static 'js/common.js' %}"></script>
+
+		<script src="{% static 'functionality/js/ajax.js' %}"></script>
+	</body>
+</html>
