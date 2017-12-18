@@ -1,0 +1,77 @@
+body {
+	background-color: white;
+	color: black;
+}
+
+.logo {
+	margin: 10px 0;
+	text-align: center;
+	font-size: 42px;
+	color: black;
+	font-family: "NautilusPompiliusRegular";
+}
+
+.radio-div input[type="radio"] {
+ 	display: none;
+}
+
+.radio-div label {
+	display: inline-block;
+ 	background-color: #ccced4;
+  	padding: 10px 35px;
+  	border-radius: 5px;
+  	cursor: pointer;
+  	transition-duration: 0.5s;
+}
+
+.radio-div input[type="radio"]:checked+label {
+  	background-color: rgba(7, 54, 185, 0.42);
+}
+
+.paragraph {
+	text-align: center;
+	font-size: 22px;
+	margin: 15px 0;
+}
+
+#gpu {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#gpu input {
+	width: 50px;
+	border-radius: 5px;
+	padding: 3px;
+}
+
+hr {
+	background: black;
+	height: 1px;
+}
+
+#main-div{
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+#submit {
+	border: none;
+	padding: 10px 40px;
+	border-radius: 5px;
+	transition-duration: 0.3s;
+	box-shadow: 0;
+	text-transform: uppercase;
+}
+
+#submit:hover {
+	border-radius: 100px;
+}
+
+#submit:active {
+    background-color: rgba(7, 54, 185, 0.42);
+}
+
+.text-center {
+	text-align: center;
+}
