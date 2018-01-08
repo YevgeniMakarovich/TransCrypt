@@ -27,9 +27,8 @@ Without internet connection application won't be able to refresh rates and make 
 
 ## **3. System requirements**
 
-1. Windows 7/8/10
-2. MSBuild 15.0
-3. .NET Framework 4.5.1
+1. Windows 7/8/10, Linux
+2. Python 3
 
 
 
